@@ -182,7 +182,7 @@ def viewer_label(uid):
 
 # ---------- pages ----------
 def home():
-    banner("MSBA 315  ·  SECTION 1  ·  GROUP 5", "What should we watch tonight?",
+    banner("MOVIE NIGHT, SORTED", "What should we watch tonight?",
            "Movie picks from our hybrid SVD + XGBoost model, trained on MovieLens 25M")
 
     c1, c2, c3, c4 = st.columns(4)
@@ -313,7 +313,7 @@ history behind it. Hidden gems are the least-rated third of that catalog.
 # ---------- navigation ----------
 with st.sidebar:
     st.markdown('<div class="rm-logo">REELMATCH</div>', unsafe_allow_html=True)
-    st.caption("Section 1 · Group 5")
+    st.caption("Movie picks made for you")
 
 nav = st.navigation([
     st.Page(home, title="1. Home", icon=":material/home:", default=True),
