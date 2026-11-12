@@ -117,7 +117,8 @@ def similar_to(movie_id, n):
 st.markdown(f"""
 <style>
   .block-container {{padding-top: 2.2rem; max-width: 1400px;}}
-  html, body, [class*="st-"] {{font-size: 17px;}}
+  .stMarkdown p, .stMarkdown li {{font-size: 17px;}}
+  [data-testid="stMetricValue"] {{font-size: 2.2rem;}}
   h1, h2, h3 {{letter-spacing: -0.3px;}}
   .rm-banner {{background:{RED}; padding:28px 32px; border-radius:6px; margin-bottom:24px; text-align:center;}}
   .rm-banner .kicker {{color:#FFFFFF; opacity:.85; font-weight:700; letter-spacing:2px; font-size:14px;}}
