@@ -1,4 +1,4 @@
-# ReelMatch: movie recommender (MSBA 315, Section 1, Group 5)
+# ReelMatch: movie recommender
 
 Hybrid SVD + XGBoost classifier trained on MovieLens 25M. Posters from TMDB.
 
