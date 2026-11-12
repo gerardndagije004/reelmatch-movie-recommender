@@ -120,10 +120,10 @@ st.markdown(f"""
   .stMarkdown p, .stMarkdown li {{font-size: 17px;}}
   [data-testid="stMetricValue"] {{font-size: 2.2rem;}}
   h1, h2, h3 {{letter-spacing: -0.3px;}}
-  .rm-banner {{background:{RED}; padding:28px 32px; border-radius:6px; margin-bottom:24px; text-align:center;}}
-  .rm-banner .kicker {{color:#FFFFFF; opacity:.85; font-weight:700; letter-spacing:2px; font-size:14px;}}
-  .rm-banner .title {{color:#fff; font-size:40px; font-weight:800; margin:4px 0 6px 0; line-height:1.1;}}
-  .rm-banner .sub {{color:#FFFFFF; font-size:18px;}}
+  .rm-banner {{background:#FDE7E7; border:1px solid #F6C9CB; padding:28px 32px; border-radius:6px; margin-bottom:24px; text-align:center;}}
+  .rm-banner .kicker {{color:#C4161C; font-weight:700; letter-spacing:2px; font-size:14px;}}
+  .rm-banner .title {{color:#7A0C10; font-size:40px; font-weight:800; margin:4px 0 6px 0; line-height:1.1;}}
+  .rm-banner .sub {{color:#4A3B3C; font-size:18px;}}
   .rm-grid {{display:grid; grid-template-columns:repeat(auto-fill, minmax(160px, 1fr)); gap:18px; margin:8px 0 26px 0;}}
   .rm-grid.small {{grid-template-columns:repeat(8, minmax(0, 1fr)); gap:12px;}}
   .rm-card {{background:#FFFFFF; border:1px solid #E2E2E2; border-radius:6px; overflow:hidden; transition:transform .15s ease, box-shadow .15s ease;}}
